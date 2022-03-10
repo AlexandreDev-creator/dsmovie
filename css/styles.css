@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-
+ 
 :root {
---bg-gray: #E8E8E8;
---text-gray: #4a4a4a;
---color-primary: #4D41C0;
---white: #fff;
+    --bg-gray: #ddd;
+    --color-primary: #4D41C0;
+    --white: #fff;
+    --text-gray: #4a4a4a;
 }
 
+
+
 * {
-    margin: 0;
-    box-sizing: border-box;
-  font-family:'Open Sans', sans-serif;
+      box-sizing: border-box;
+      font-family: 'open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,54 +19,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
-    background-color: var(--bg-gray);
+           background-color: var(--bg-gray);
 }
-
-
-header{
+    header{
     background-color: var(--color-primary);
     color: var(--white);
     height: 60px;
-    display:flex;
-    align-items:center; 
+    display: flex;
+    align-items: center;
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav h1{
+nav h1 {
+      
     font-size: 24px;
     font-weight: 700;
 }
 
 nav a{
-    font-size: 12px;
+    font: 12px;
     font-weight: 400;
 }
 
 a, a:hover {
     text-decoration: none;
-    color: unset;
+     color: unset;
 }
 
-.dsmovie-contact-container {
+.dsmovie-contact-conTainer {
     display: flex;
     align-items: center;
 }
 
-.dsmovie-contact-container img {
-margin-right: 10px;
+.dsmovie-contact-conTainer img {
+    margin: 5px;
 }
 
 #dsmovie-card-list {
     padding: 40px 0;
 }
 
-
 .dsmovie-card {
-    width: 360px;
+    width: 100%; 
 }
 
 .dsmovie-card img {
@@ -81,22 +81,22 @@ margin-right: 10px;
     align-items: center;
     border-radius: 0 0 8px 8px;
 }
+
 .dsmovie-card-description h3 {
-font-size: 14px;
-font-weight: 700;
+    font-size: 14px;
     margin-bottom: 25px;
+    font-weight: 700;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
     height: 40px;
-    background-color:var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--white);
     font-size: 14px;
     font-weight: 700;
-    color: var(--white);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     border-radius: 4px;
-   
 }
